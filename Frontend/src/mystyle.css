@@ -1,0 +1,82 @@
+.button {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+    /* cursor: pointer; */
+    /* background-color: rgb(100, 200, 200); */
+    border-radius: 50px;
+  }
+  
+  .button:hover {
+    background-color: rgb(50, 163, 167);
+    transform: scale(1.05);
+    transition:all .2s ease 0s
+  }
+
+  .backcolor {
+    background-color: rgb(130, 200, 230);
+    color: orangered;
+  }
+
+  .button:hover:hover {
+    --_p: 50%;
+  }
+
+  .button img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+  }
+
+  .button span {
+    display: block;
+    margin-top: 1px;
+    font-size: large;
+  }
+
+  .imagecar {
+    width: 300px;
+    height: 100px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  backimg {
+    width: 100%;
+    /* padding-right: 0px; */
+    padding-left: 0px;
+    /* margin-right: 0; */
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  navbarfont {
+    color: red;
+  }
+
+  .back {
+    /* The image used */
+  background-image: url("http://localhost:8181/images/HospitalBack.jpg");
+  /* {BaseApi.server_url+'images/HospitalBack.jpg'} */
+
+  /* Add the blur effect */
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
